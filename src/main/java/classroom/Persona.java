@@ -35,7 +35,7 @@ public class Persona {
     }
     public Persona()
     {
-    	totalPersonas++;
+    	this("sin nombre",0);
     }
     
     public long getCedula() {
